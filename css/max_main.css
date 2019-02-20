@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* 전체공통, 1024이상 */
+
+/* reset */
+body{font:normal  12px  "돋움",Arial, Helvetica, sans-serif; background-color:#000; }
+a{text-decoration:none; color:#5D5C5C;}
+
+#wrap{width:100%; max-width:1024px; margin:0 auto; height:auto; }
+
+/* header */
+#top{width:100%; max-height:564px; background:#000; position:relative;}
+/*#top #popup{width:300px; height:300px; position:absolute; top:140px; left:0; background:url(../images/popup.png) no-repeat; z-index:1;}
+#top #popup p{position:absolute; bottom:8px; right:40px;}
+#top #popup p .close1{color:#fff;  margin-left:3px; }*/
+#top h1{ float:left;}
+
+#Menu{float:right; width:100%; max-width:932px;  height:auto; }
+.side_menu{float:right; margin:20px 10px 7px 0;}
+.side_menu li{float:left; padding:5px 10px;}
+.side_menu li a{font-weight:bold; color:#ABAAAA; display:block; }
+.side_menu li a:hover{color:#edd63d;}
+
+.main_navi{clear:both;  width:100%; max-width:882px; height:40px; background:url(../images/header_bg02_repeat.png) repeat-x top left; padding-left:50px;}
+.main_navi li{float:left; padding: 10px 20px; line-height:20px;}
+.main_navi li a{color:#fff;  font-weight:bold ; font-size:13px; display:block;}
+.main_navi li a:hover{color:#F8E03F;}
+
+#banner_wrap{position:relative;width:1024px; height:424px; clear:both;}
+#prevBtn{position:absolute;left:15px;top:180px; }
+#nextBtn{position:absolute;right:15px;top:180px;}
+
+.icon_all{background:url(../images/bg_30.png) repeat-x; width:1024px; height:20px; }
+
+
+
+
+/* footer */
+#bottom{width:100%; max-width:1024px; clear:both; height:190px; background:url(../images/footer_bg.png) no-repeat; }
+
+.guideMenu{width:100%; max-width:1024px; height:30px; line-height:30px;}
+.guideMenu .nikon{width:350px; float:left; color:#666; padding-left:50px;}
+.guideMenu ul{width:400px; float:left;}
+.guideMenu ul li{float:left; padding:0 20px;}
+.guideMenu ul li a:hover{color:#fff;} 
+
+.guideMenu .sites select{width:180px; height:20px; border:1px solid #666; background:#333; color:#fff;}
+.guideMenu .sites select option{background:#333; }
+
+.guideMenu2{width:100%; max-width:1024px; height:110px;position:relative;}
+.guideMenu2 .footerLogo{clear:both; float:left; margin:0 20px 0 75px;}
+.guideMenu2 address{color:#666; font:normal 12px/1.3em "돋움",dotum,sans-serif; margin-top:18px; width:800px;}
+.guideMenu2 .globalSite{ position:absolute; top:30px; right:110px; width:69px; height:35px;}
+.guideMenu2 .globalSite a .site1{display:block;}
+.guideMenu2 .globalSite a .site2{display:none;}
+.guideMenu2 .globalSite a:hover .site1{display:none;}
+.guideMenu2 .globalSite a:hover .site2{display:block;}
+
+/* 768 ~ 960 */
+@media screen and ( max-width : 960px ){
+#top{text-align:center;}
+#top h1{ float:none; margin-top:15px;}
+
+#Menu{float:none; max-width:960px; }
+.side_menu{float:none;padding-left:300px;}
+.side_menu li{padding:10px 30px; }
+
+.main_navi{padding-left:0; padding-left:25px;}
+.main_navi li{padding: 10px 25px;}
+
+.guideMenu{max-width:960px; height:30px; line-height:30px;}
+.guideMenu .nikon{width:350px; float:left; color:#666; padding-left:0;}
+.guideMenu ul{width:400px; float:left;}
+.guideMenu ul li{float:left; padding:0;}
+.guideMenu ul li a:hover{color:#fff;} 
+
+.guideMenu .sites select{width:180px; height:20px; border:1px solid #666; background:#333; color:#fff;}
+.guideMenu .sites select option{background:#333; }
+
+.guideMenu2{width:100%; max-width:1024px; height:110px;position:relative;}
+.guideMenu2 .footerLogo{clear:both; float:left;}
+.guideMenu2 address{color:#666; font:normal 12px/1.3em "돋움",dotum,sans-serif; margin-top:18px; width:800px;}
+.guideMenu2 .globalSite{display:none;}
+
+}
+@media screen and ( max-width : 767px ){
+#top{width:100%; max-height:564px; background:#000; position:relative;}
+#top h1{ float:none;}
+
+#Menu{float:right; width:100%; max-width:767px;  height:auto; }
+.side_menu{float:none;padding-left:0;}
+.side_menu li{float:left; padding:5px 17px; width:22%; }
+
+.main_navi{ max-width:767px; background:none; padding-left:0;}
+.main_navi li{float:none; background:url(../images/header_bg02_repeat.png) repeat-x top left; }
+.main_navi li:hover{color:#F8E03F; background:#333;}
+}

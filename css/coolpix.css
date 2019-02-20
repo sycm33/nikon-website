@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* centents */
+#centents{width:1024px; height:1500px; background-color:#fff; clear:both;}
+
+/* sidemenu1 */
+#sidemenu1{width:180px; height:800px;float:left;}
+#sidemenu1 p{width:132px; height:40px; font:bold 16px/2.5em Arial, Helvetica, sans-serif; background:url(../images/sideproduct_bg.png) no-repeat; text-indent:1em; margin:25px 0;}
+.sidemenu2 li{width:130px;border-bottom:1px solid #CCC; }
+.sidemenu2 li a{display:block;width:115px; height:42px; font:bold 14px/3em Arial, Helvetica, sans-serif; color:#666; padding-left:15px;}
+.sidemenu2 li a:hover{color:#fff; background:url(../images/sidemenu_bg.png) no-repeat left top;}
+
+
+/* right */
+#right{width:840px; height:1500px; float:left;}
+
+/* title */
+#title{width:781px; }
+#title h1{height:60px;float:left; padding-top:20px;}
+#title ul{float:right;  margin-top:30px;}
+#title li{float:left; padding-left:3px;}
+#title li a{font:bold 12px Arial, Helvetica, sans-serif; color:#999;}
+#title li span{color:#999;padding:0 3px;}
+#title li.style1 a{color:#990; font-size:12px;}
+
+#title p img{border:1px solid #CCC; margin-bottom:40px;}
+
+
+/* pro1*/
+#pro1{width:781px; height:600px;}
+#cool{width:781px;}
+#cool h3{width:781px; height:35px; background:url(../images/protab.png) no-repeat left top; color:#fff; line-height:35px; text-indent:2em; margin-top:1px;}
+#cool h3.over{background-image:url(../images/protab_sel.png); color:#ddd; cursor:pointer;}
+#cool h3.selected{background-image:url(../images/protab_over.png); color:#000; cursor:default;}
+#cool .image_wrap1{height:500px; border:1px solid #eaeaea; margin-bottom:5px;}
+#cool .image_wrap2{height:500px; border:1px solid #eaeaea; margin-bottom:5px;}
+#cool .image_wrap3{height:250px; border:1px solid #eaeaea;}
+#cool p{float:left; padding:25px 0; padding-left:65px;}
+#cool p span{text-align:center; display:block;}
+
+/* accessories */
+#accessories{position:relative; top:0; left:0; width:779px; height:200px; clear:both; border:1px solid #eaeaea; margin-top:60px;}
+#accessories h4{width:779px; height:31px; background:url(../images/ac_bg.png) repeat-x top left; text-indent:2em; line-height:31px; color:#666;}
+#accessories h4 a{float:right; margin-right:10px; color:#999;}
+#accessories h4 a:hover{color:#fff;}
+#photo{position:absolute; left:45px; top:40px; width:770; height:136px; overflow:hidden;}
+#photo img{ float:left; padding-left:50px;}
+#btn1,#btn2{position:absolute; z-index:2; color:#7da7d9; background:none; border:none; padding:5px; cursor:pointer; width:30px; height:136px;}
+#btn1{left:0; top:50px;}
+#btn2{right:0; top:50px;}
+
+/* media */
+#media{clear:both; width:781px; height:200px; margin-top:30px;}
+#media ul .style2{float:left; margin-right:35px;}
+#media ul .style3{float:left; width:372px; height:236px; background:url(../images/facebook_bg.png) no-repeat; line-height:400px; text-align:center;}
+#media ul .style3 a{color:#fff; }
+#media ul .style3 a:hover{color:#009; font-weight:bold;}
+

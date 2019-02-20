@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* centents */
+#centents{width:1024px; height:2100px; background-color:#fff; clear:both;}
+
+/* sidemenu1 */
+#sidemenu1{width:180px; height:2100px;float:left;}
+#sidemenu1 p{width:132px; height:40px; font:bold 16px/2.5em Arial, Helvetica, sans-serif; background:url(../images/sideproduct_bg.png) no-repeat; text-indent:1em; margin:25px 0;}
+.sidemenu2 li{width:130px;border-bottom:1px solid #CCC; }
+.sidemenu2 li a{display:block;width:115px; height:42px; font:bold 14px/3em Arial, Helvetica, sans-serif; color:#666; padding-left:15px;}
+.sidemenu2 li a:hover{color:#fff; background:url(../images/sidemenu_bg.png) no-repeat left top;}
+
+
+/* right */
+#right{width:840px; height:2100px; float:left;}
+
+/* title */
+#title{width:781px; }
+#title h2{height:60px;float:left; padding-top:20px;}
+#title ul{float:right;  margin-top:30px;}
+#title li{float:left; padding-left:3px;}
+#title li a{font:bold 12px Arial, Helvetica, sans-serif; color:#999;}
+#title li span{color:#999;padding:0 3px;}
+#title li.style1 a{color:#990; font-size:12px;}
+
+#title p img{border:1px solid #CCC; margin-bottom:40px;}
+
+/* slr */
+#slr{width:781px;}
+#slr h2{background:url(../images/protab_sel.png) no-repeat left top; width:781px; height:35px; color:#fff; line-height:35px; text-indent:2em; margin-top:1px; font-size:13px;}
+
+#box_wrap{width:779px; border:1px solid #eaeaea; height:1503px;}
+
+.sbox1, .sbox3, .sbox5, .sbox7, .sbox9{width:380px; height:250px; border-right:1px dotted #eaeaea;  border-bottom:1px dotted #eaeaea;float:left;margin-left:8px;}
+.sbox2, .sbox4, .sbox6, .sbox8, .sbox10{width:380px; height:250px;  border-bottom:1px dotted #eaeaea; float:left;}
+.sbox11{width:380px; height:250px; border-right:1px dotted #eaeaea;;float:left;margin-left:8px;}
+
+#box_wrap dl{margin:10px 0 0 30px;}
+#box_wrap dl dt{font:bold 20px Verdana, Geneva, sans-serif; color:#333; margin-bottom:3px;}
+#box_wrap dl dt img{padding-left:3px;}
+#box_wrap dl dd{ color:#666;}
+#box_wrap dl dd a{color:#666; border:1px solid #CCC;width:85px; height:20px; display:block; text-align:center; margin-top:10px; line-height:20px;}
+#box_wrap dl dd a:hover{background:#B7A634; color:#fff;}
+#box_wrap dl dd a span{ font-weight:bold;}
+#box_wrap p{float:right; margin-right:30px;}
+
+/* media */
+#media{clear:both;}
+#media h2{display:none;}
+#media ul{margin-top:35px;}
+#media ul .style2{float:left; margin-right:20px;}
+#media ul .style3{background:url(../images/school.png) no-repeat top left; float:left; width:370px; height:236px; position:relative;}
+#media ul .style3 a{color:#9482c3; font:normal 18px Arial, Helvetica, sans-serif; position:absolute; bottom:35px; left:20px;}
+#media ul .style3 a:hover{color:#FFF; font-weight:bold;}
+
+
+
+
+
+
+
+
+
+
+
+

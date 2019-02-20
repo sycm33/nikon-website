@@ -1,0 +1,415 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0b1 | 201101
+   NOTE: WORK IN PROGRESS
+   USE WITH CAUTION AND TEST WITH ABANDON */
+ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+
+ol{
+	margin-left:2em;
+	line-height:1.5em;
+}
+
+ul {
+    list-style: none;
+	margin: 0 0 1.5em 0;
+}
+
+
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+ 
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+ 
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+	max-width: 100%;
+	margin: 0 0 1.5em 0;
+}
+
+caption{
+	display:none;
+}
+
+/*base*/
+
+body {
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+	color: #999;
+	padding: 2em 0;
+	background-color:#000; 
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+	margin: 0 0 1.5em 0;
+	text-align:justify;
+	color:#666;
+}
+
+a {
+	color:#999;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#fff;
+	text-decoration:none;
+}
+
+h1 {
+	text-align:center;
+	color:#FFF;
+	background-color:#000;
+}
+
+h3 {
+	font-size: 2em;
+	font-weight: bold;
+	line-height: 1.3em;
+	margin: 0 0 .5em 0;
+	color: #666;
+	letter-spacing: -0.07em;
+}
+
+span{
+	font-size:1em;
+	font-weight:bold;
+	color: #666;
+}
+
+img {
+	max-width: 100%;
+	margin-bottom: 1em;
+}
+
+iframe{
+	max-width: 100%;
+	margin-bottom: 1em;
+}
+
+.wrapper { 
+	position: relative; 
+	width: 1024px; 
+	margin: 0 auto; 
+	padding: 0;
+	
+	background: #ffffff;	
+}
+
+
+section {
+	padding: 0 2em 1em;
+}
+
+footer {
+	background-color:#fff;
+	margin: 1em;
+	font-size: 0.9em;
+}
+
+hr {
+	width: 100%;
+	display: block;
+	height: 1px;
+	border: none;
+	outline: none;
+	clear: both;
+	background: #ccc;
+	margin: 1em 0;
+	
+}
+
+.wrapper .column { 
+	float: left; 
+	display: inline; 
+	width: 90%;
+	padding: 0;
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;	
+}
+
+
+.nav-container { margin-bottom: 2em; width:100%; margin-right:-2em; }
+
+nav {
+	z-index: 42;
+
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+	
+	width: 1048px;
+	padding: 0.5em 2em;
+	margin-left: -14px;
+	
+	background: rgba(236,212,60,0.8);
+	filter: alpha(opacity=80); /* IE6-IE8 */
+	position: relative;
+	
+}
+
+nav ul{
+	text-align:center;
+}
+
+ 
+nav li {
+	display: inline;
+	list-style: none;
+}
+
+nav li a {
+	text-decoration: none;
+	font-size: 1.2em;
+	color: #2c2e24;
+	font-weight: bold;
+	display: inline-block;
+	width: 5.5em; text-align: center;
+	padding: .5em 1em;
+	
+}
+
+nav li a:hover,
+nav li a.selected {
+	color: #fff;
+	border-bottom:1.5px solid #FFF;
+}
+
+
+/* chapter-1 */
+#intro th{
+	text-align:center; color:#666; 
+	background-color:#eaeaea;
+}
+#intro th,#intro td{
+	padding:5px; 
+	border:1px solid #CCC;
+}
+
+
+/* chapter-4 */
+#order{
+	text-align:center;
+}
+#order th,#order td{
+	padding:5px; 
+	border-bottom:1px dotted #CCC;
+}
+#order td a{
+	display:block;
+}
+.odd1{
+	color:#999;
+}
+.even1{
+	color:#999;
+}
+.hover1{
+	background-color:#CC0; 
+	color:#fff; 
+	cursor:pointer;
+}
+
+
+/* chapter-5 */
+.img_info img{
+	float:left; 
+	margin-right:3em;
+}
+button{
+	padding:5px 10px; 
+	background-color:#edd63d; 
+	border:none; float:right; 
+	cursor:pointer; 
+}
+button:hover{
+	color:#edd63d; 
+	background-color:#000;
+}
+#info_list{
+	border-top:1px solid #CCC;
+	border-bottom:1px solid #CCC; 
+	clear:both;
+}
+#info_list th{
+	text-align:center; 
+	line-height:2em; 
+	background-color:#eaeaea;
+}
+#info_list th,#info_list td{
+	padding:15px 5px; 
+	border-bottom:1px solid #CCC; 
+}
+
+/* footer */
+.footerLogo{
+	float:left; 
+	padding-right:1em;
+}
+address{
+	line-height:1.2em;
+}
+
+/*clearfix*/    
+.wrapper:before,
+.wrapper:after {
+	content: '';
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+	clear: both;
+	zoom: 1 
+}
+
+.sticky {
+	position: fixed;
+	top: 15px;
+	
+	animation:thedrop 1s 1;
+	-moz-animation:thedrop 1s 1;
+	-webkit-animation:thedrop 1s 1;
+}
+
+.sticky .nav-above {
+	position: absolute;
+	top:-15px;
+	left:1em;
+	right:1em;
+	height:15px;
+	background: linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 80%);
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+}
+
+
+    
+/*media queries*/  
+
+	/* #Tablet (Portrait) width of 768px */  
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+   		.wrapper { 
+   			width: 700px;
+   		}
+		
+		nav {
+			width: 728px;
+		}
+
+	}
+	
+	/* #Mobile (Portrait) width of 320px */
+
+    @media only screen and (max-width: 767px) {
+        .wrapper { 
+        	width: 300px;
+        }
+        
+        .wrapper .column {
+        	float: none;
+        	width: 100%;
+        }
+		
+		nav {
+			width: 328px;
+		}
+        
+        h1 {
+			font-size: 1em;
+			text-align: center;
+        }
+        
+        h3 {
+			font-size: 1.3em;
+			text-align: center;
+		}
+		
+		/* chapter-5 */
+		.img_info img{
+			display:none; 
+			float:none;
+		}
+				
+		button{
+			float:none; 
+			margin-bottom:2em;
+		}
+		.img_info ol li{clear:both; max-width:400px;} 
+		
+		/* footer */
+		.footerLogo{
+			float:none; 
+			padding-right:0;
+			text-align:center;
+		}
+		address{
+			line-height:1.1em;
+			text-align:center;
+		}
+ 	}
+ 	
+ 	/* Mobile (Landscape) width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .wrapper {
+        	width: 400px;
+        }
+		
+		nav {
+			width: 428px;
+		}
+        
+        h1 {
+			font-size: 1em;
+        }
+        
+        h3 {
+			font-size: 1.7em;
+		}
+    
+	}
